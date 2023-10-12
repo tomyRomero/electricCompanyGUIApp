@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63bea5f0-7895-4cc5-bf5b-2dbc4e8a6c64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIjava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JvPmBKBLSGH2e6bFBB5gph4fsF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/tomyromero/IdeaProjects/GUIJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tomyf\IdeaProjects\GUIjava" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginFrame" />
+      <module name="GUIjava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63bea5f0-7895-4cc5-bf5b-2dbc4e8a6c64" name="Changes" comment="" />
+      <created>1672955741059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672955741059</updated>
+      <workItem from="1672955742234" duration="178000" />
+      <workItem from="1672955928707" duration="515000" />
+      <workItem from="1672956590169" duration="578000" />
+      <workItem from="1673121941937" duration="51000" />
+      <workItem from="1673122749888" duration="14000" />
+      <workItem from="1673313276274" duration="24000" />
+      <workItem from="1675310674011" duration="62000" />
+      <workItem from="1679367201754" duration="96000" />
+      <workItem from="1679367339194" duration="240000" />
+      <workItem from="1679369587019" duration="100000" />
+      <workItem from="1689652710150" duration="48000" />
+      <workItem from="1697081929392" duration="642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
