@@ -4,7 +4,7 @@
 
 The application uses Java framework spring to provide a Graphical User Interface experience, this was the first app I ever created during college and was used for a project.
 
-I had limited knowledge back in the day and no access to database technologies, quite frankly I did not even know what databases fully were.
+I had limited knowledge back in the day and no access to database technologies, I had limted knowledge of database tools.
 
 ## The Problem: I wanted to save data and use that data to create User accounts and Login, while the changes are made in real time, without knowledge of a database
 
