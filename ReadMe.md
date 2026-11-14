@@ -17,6 +17,7 @@ A school project from 2023: the first app I built in college.
 7. 📝[Final Comments](#final-comments)
 8. 🖼️[Graphics](#graphics)
 9. 📫[Contact](#contact)
+10. [Licence](#licence)
 
 ## <a name="introduction">🖥️ Introduction</a>
 
@@ -92,3 +93,7 @@ The program uses an object-oriented programming approach and is a skeleton app i
 ## <a name="contact" > 📫 Contact </a>
 tomyfletcher99@hotmail.com
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tomy-romero-902476145/)
+
+## <a name="licence">Licence</a>
+
+The code is under the MIT licence: see [LICENSE](LICENSE).
