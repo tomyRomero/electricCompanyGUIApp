@@ -13,11 +13,12 @@ A school project from 2023: the first app I built in college.
 3. 💡[Solution](#solution)
 4. 💻[Tech](#tech)
 5. [Running it](#running-it)
-6. [What I would do differently today](#what-i-would-do-differently-today)
-7. 📝[Final Comments](#final-comments)
-8. 🖼️[Graphics](#graphics)
-9. 📫[Contact](#contact)
-10. [Licence](#licence)
+6. [Sample accounts](#sample-accounts)
+7. [What I would do differently today](#what-i-would-do-differently-today)
+8. 📝[Final Comments](#final-comments)
+9. 🖼️[Graphics](#graphics)
+10. 📫[Contact](#contact)
+11. [Licence](#licence)
 
 ## <a name="introduction">🖥️ Introduction</a>
 
@@ -52,6 +53,19 @@ java -cp out LoginFrame
 ```
 
 Run it from the repo folder: the app reads `Users` and the `database/` folder by relative path, and saves every change back to them, so using it changes those files.
+
+## <a name="sample-accounts">Sample accounts</a>
+
+The app comes with made-up accounts to log in with:
+
+| Username | Password | Account |
+| --- | --- | --- |
+| `sample-admin` | `sample-pass-admin` | Admin |
+| `sample-customer-1` | `sample-pass-1` | Customer |
+| `sample-customer-2` | `sample-pass-2` | Customer |
+| `sample-customer-3` | `sample-pass-3` | Customer |
+
+The accounts the project shipped with in 2023 were replaced with these sample accounts in 2026.
 
 ## <a name="what-i-would-do-differently-today">What I would do differently today</a>
 
