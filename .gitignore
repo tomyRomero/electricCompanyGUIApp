@@ -1,0 +1,10 @@
+# Compiled output
+out/
+*.class
+
+# Editor settings
+.idea/
+*.iml
+
+# macOS
+.DS_Store
