@@ -21,7 +21,7 @@ public class LoginFrame extends JFrame
     private JPanel top;
     private JPanel bottom;
     private static File usersFile=new File("./Users");
-    private static final File dataBase=new File("./dataBase");
+    private static final File dataBase=new File("./database");
 
 
     public LoginFrame()

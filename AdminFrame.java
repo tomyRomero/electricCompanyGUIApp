@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class AdminFrame extends JFrame
 {
     private static File usersFile=new File("./Users");
-    private static final File dataBase=new File("./dataBase");
+    private static final File dataBase=new File("./database");
     private static AdminFrame deleteFrame;
 
     private Customer info;

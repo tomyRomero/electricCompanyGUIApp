@@ -1,18 +1,30 @@
+# Electric Company GUI App
+
+A Java desktop app (Swing) for an electric company, modelled on my local power supplier: customers log in to see their consumption, account and bill, and an admin manages the accounts.
+
+A school project from 2023: the first app I built in college.
+
+![Login](Login.png)
+
 ## 📋 Table of Contents
 
 1. 🖥️[Introduction](#introduction)
 2. 🔍[Problem](#problem)
 3. 💡[Solution](#solution)
 4. 💻[Tech](#tech)
-5. 📝[Final Comments](#final-comments)
-6. 🖼️[Graphics](#graphics)
-7. 📫[Contact](#contact)
+5. [Running it](#running-it)
+6. [Sample accounts](#sample-accounts)
+7. [What I would do differently today](#what-i-would-do-differently-today)
+8. 📝[Final Comments](#final-comments)
+9. 🖼️[Graphics](#graphics)
+10. 📫[Contact](#contact)
+11. [Licence](#licence)
 
 ## <a name="introduction">🖥️ Introduction</a>
 
 The following application is an adaptation implementation of a desktop app for my local power supplier company and was created for educational purposes.
 
-The application uses Java framework Spring to provide a Graphical User Interface experience. This was the first app I ever created during college and was used for a project.
+The application uses Java's Swing toolkit to provide a Graphical User Interface experience. This was the first app I ever created during college and was used for a project.
 
 I had limited knowledge back in the day and no access to database technologies, I had limited knowledge of database tools.
 
@@ -26,10 +38,41 @@ I created my own personal database with the use of Binary and Txt Files. When cr
 
 ## <a name="tech">💻 Tech</a>
 
-- **Java Framework:** ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+- **Language:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 - **Data Storage:** ![Binary Files](https://img.shields.io/badge/Binary%20Files-333333?style=for-the-badge&logo=File&logoColor=white), ![Txt Files](https://img.shields.io/badge/Txt%20Files-333333?style=for-the-badge&logo=File&logoColor=white)
 - **Serialization:** ![Java Object Serialization](https://img.shields.io/badge/Java%20Object%20Serialization-007396?style=for-the-badge&logo=Java&logoColor=white)
 - **GUI:** ![Swing](https://img.shields.io/badge/Swing-007396?style=for-the-badge&logo=Java&logoColor=white)
+
+## <a name="running-it">Running it</a>
+
+You need a Java JDK (tested with OpenJDK 17 on macOS). From the repo folder:
+
+```sh
+javac -d out *.java
+java -cp out LoginFrame
+```
+
+Run it from the repo folder: the app reads `Users` and the `database/` folder by relative path, and saves every change back to them, so using it changes those files.
+
+## <a name="sample-accounts">Sample accounts</a>
+
+The app comes with made-up accounts to log in with:
+
+| Username | Password | Account |
+| --- | --- | --- |
+| `sample-admin` | `sample-pass-admin` | Admin |
+| `sample-customer-1` | `sample-pass-1` | Customer |
+| `sample-customer-2` | `sample-pass-2` | Customer |
+| `sample-customer-3` | `sample-pass-3` | Customer |
+
+The accounts the project shipped with in 2023 were replaced with these sample accounts in 2026.
+
+## <a name="what-i-would-do-differently-today">What I would do differently today</a>
+
+- **A build tool.** Maven or Gradle, so the project builds and runs with one command and states its Java version, instead of loose `.java` files at the root.
+- **Tests.** Unit tests around creating an account, billing and changing a password, so a change can be checked without clicking through every window.
+- **Passwords never stored as plain text.** Here they sit readable in `Users` and inside the `.dat` files. Today I would store only a salted hash from a slow algorithm such as bcrypt or Argon2.
+- **A real database.** SQLite instead of a text file plus one serialized object per account: Java serialization stops reading the old files as soon as the class changes.
 
 ## <a name="final-comments">📝 Final Comments</a>
 
@@ -64,3 +107,7 @@ The program uses an object-oriented programming approach and is a skeleton app i
 ## <a name="contact" > 📫 Contact </a>
 tomyfletcher99@hotmail.com
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tomy-romero-902476145/)
+
+## <a name="licence">Licence</a>
+
+The code is under the MIT licence: see [LICENSE](LICENSE).

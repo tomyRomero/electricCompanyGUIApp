@@ -18,7 +18,7 @@ public class AccountCreator extends JFrame
     private JTextField password;
     private JPanel jPanel;
     private static File usersFile=new File("./Users");
-    private static final File dataBase=new File("./dataBase");
+    private static final File dataBase=new File("./database");
     private ArrayList<Customer> CustomerArray;
 
     public AccountCreator(Boolean adminAccess)
